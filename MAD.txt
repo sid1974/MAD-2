@@ -1,0 +1,1427 @@
+PROGRAM-1 VISITING CARD
+-----------------------
+1.THIS PROGRAM DOESNT HAVE JAVA CODE SO LEAVE THE JAVA CODE AS IT IS AND RUN IT.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="693dp"
+        android:text="DSATM"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="687dp"
+        android:background="#D7E64A4A" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="643dp"
+        android:text="Name: Amogha Harsha M V "
+        android:textAlignment="center"
+        android:textColor="#3700b3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="602dp"
+        android:text="Student"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="506dp"
+        android:text="Mob: 9980119894"
+        android:textAlignment="center"
+        android:textColor="#b00020"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="466dp"
+        android:text="Email ID: amoghaharsha02@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#3700b3"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="372dp"
+        android:layout_marginBottom="692dp"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="556dp"
+        android:text="Sem: 6          Sec:A"
+        android:textSize="16dp"/>
+
+</RelativeLayout>
+==========================================================================END==========================================================================================
+
+PROGRAM2-SIMPLE CALCULATOR
+--------------------------
+1.create project name as simplecalculator.
+ 
+ACTIVITY_MAIN.XML
+CODE:
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="580dp"
+        android:text="Simple Calculator"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="478dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Enter Number-1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="394dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Enter Number-2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="305dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="179dp"
+        android:text="ADD"
+        android:onClick="add"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="179dp"
+        android:text="SUB"
+        android:onClick="sub"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="69dp"
+        android:text="MUL"
+        android:onClick="mul"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="65dp"
+        android:text="DIV"
+        android:onClick="div"
+        android:textSize="24sp" />
+</RelativeLayout>
+------------------------------------------------------------
+
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.simplecalculator;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+    EditText e1,e2;
+    TextView tv1;
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        e1 = findViewById(R.id.editText1);
+        e2 = findViewById(R.id.editText2);
+        tv1 = findViewById(R.id.textView1);
+    }
+
+    public void add(View view)
+    {
+        int a1 = Integer.parseInt(e1.getText().toString());
+        int a2 = Integer.parseInt(e2.getText().toString());
+        int  result = a1+a2;
+        tv1.setText(""+result);
+    }
+
+    public void sub(View view)
+    {
+        int a1 = Integer.parseInt(e1.getText().toString());
+        int a2 = Integer.parseInt(e2.getText().toString());
+        int  result = a1-a2;
+        tv1.setText(""+result);
+    }
+
+    public void mul(View view)
+    {
+        int a1 = Integer.parseInt(e1.getText().toString());
+        int a2 = Integer.parseInt(e2.getText().toString());
+        int  result = a1*a2;
+        tv1.setText(""+result);
+    }
+    public void div(View view)
+    {
+        float a1 = Integer.parseInt(e1.getText().toString());
+        float a2 = Integer.parseInt(e2.getText().toString());
+        float  result = a1/a2;
+        tv1.setText(""+result);
+    }
+}
+============================================================================  END   ===================================================================================
+PROGRAM3-SIGN UP LOGIN
+--------------------------
+1.create project name as loginapplication.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:text="SignUp"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:onClick="signup"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+--------------------------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.loginapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.util.regex.Pattern;
+
+public class MainActivity<view> extends AppCompatActivity {
+    EditText emailText,passwordText;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        emailText=findViewById(R.id.editTextEmail);
+        passwordText=findViewById(R.id.editTextPassword);
+    }
+    public void singup(View view)
+    {
+        String email=emailText.getText().toString();
+        String password=passwordText.getText().toString();
+        if(!isValidPassword(password))
+        {
+            Toast.makeText(this,"password does not match rules",Toast.LENGTH_LONG).show();
+            return;
+        }
+        Intent intent=new Intent(this,LoginActivity.class);
+        intent.putExtra("email",email);
+        intent.putExtra("password",password);
+        startActivity(intent);
+    }
+    Pattern lowercase=Pattern.compile("^.*[a-z].*$");
+    Pattern uppercase=Pattern.compile("^.*[a-z].*$");
+    Pattern number=Pattern.compile("^.*[a-z].*$");
+    Pattern schar=Pattern.compile("^.*[^a-zA-Z0-9].*$");
+    private Boolean isValidPassword(String password)
+    {
+        if(password.length()<8)
+        {
+            return false;
+        }
+        if(!lowercase.matcher(password).matches()){
+            return false;
+        }
+        if(!uppercase.matcher(password).matches()){
+            return false;
+        }
+        if(!number.matcher(password).matches()){
+            return false;
+        }
+        if(!schar.matcher(password).matches()){
+            return false;
+        }
+        return true;
+    }
+}
+------------------------------------------------------
+
+2.create project name as loginapplication.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:onClick="login"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+---------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.loginapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class LoginActivity extends AppCompatActivity {
+    EditText emailText, passwordText;
+    String rEmail, rPassword;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        emailText = findViewById(R.id.editTextEmail);
+        passwordText = findViewById(R.id.editTextPassword);
+        rEmail = getIntent().getStringExtra("email");
+        rPassword = getIntent().getStringExtra("password");
+    }
+
+    public void login(View view) {
+        String email = emailText.getText().toString();
+        String password = passwordText.getText().toString();
+        if (rEmail.equals(email) && rPassword.equals(password)) {
+            Intent intent = new Intent(this, LoginSuccesfull.class);
+            startActivity(intent);
+        } else {
+            Toast.makeText(this, "Invalid Credentials", Toast.LENGTH_LONG).show();
+
+        }
+    }
+}
+--------------------------------------------------------------------------
+
+3. Create project name as loginapplication.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSuccesfull">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Succesful"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+=================================================================== END ===============================================================================================
+
+PROGRAM4-CHANGE WALLPAPER
+-------------------------
+
+1.create proejct name as wallpaperchange.
+2.DOWNLOAD 5 IMAGES AND SAVE THEM AS p1,p2....p5.(MAKE SURE IT IS IN PNG OR JPG)
+3.INSERT THEM THROUGH THE DRAWABLE FILE WHICH IS PRESENT OVER THE LEFTSDIE OF THE SCREEN IN ANDROID STUDIO.
+  (PATH : APP -> RES -> DRAWABLE(COPY THE PICTURES AND CLICK ON DRAWABLE AND DO CTRL+V)
+
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:text=" Wallpaper Change Application"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setWallpaper"
+        android:text="Change Wallpaper"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-----------------------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.wallpaperchange;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.WallpaperManager;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import java.io.IOException;
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class MainActivity extends AppCompatActivity {
+    Button changeWallpaper;
+    WallpaperManager wpm;
+    Timer myTimer;
+    int prev = 1;
+    Drawable drawable;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        myTimer = new Timer();
+        wpm=WallpaperManager.getInstance(this);
+        changeWallpaper = findViewById(R.id.button);
+        changeWallpaper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setWallpaper();
+            }
+        });
+    }
+    private void setWallpaper()
+    {
+        myTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                if(prev==1)
+                {
+                    drawable = getResources().getDrawable(R.drawable.p1);
+                    prev=2;
+                }
+                else if (prev==2)
+                {
+                    drawable = getResources().getDrawable(R.drawable.p2);
+                    prev=3;
+                }
+                else if (prev==3)
+                {
+                    drawable = getResources().getDrawable(R.drawable.p3);
+                    prev=4;
+                }
+                else if (prev==4)
+                {
+                    drawable = getResources().getDrawable(R.drawable.p4);
+                    prev=5;
+                }
+                else if (prev==5)
+                {
+                    drawable = getResources().getDrawable(R.drawable.p5);
+                    prev=1;
+                }
+                Bitmap wallpaper = ((BitmapDrawable)drawable).getBitmap();
+                try
+                {
+                    wpm.setBitmap(wallpaper);
+                } catch (IOException e)
+                {
+                    e.printStackTrace();
+                }
+            }
+        }, 0, 10000);
+    }
+}
+
+============================================================================END========================================================================================
+PROGRAM5-COUNTER APPLICATION
+-----------------------------
+
+1.create project name as counter.
+2.U LL GET AN ERROR OF R, CLICK ON THE BULB -> IMPORT CLASS -> SELECT FIRST OPTION OF THE TWO OTPIONS U GET
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="610dp"
+        android:text="Counter Application"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="512dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="344dp"
+        android:text="Stop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="429dp"
+        android:text="CounterValue"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+--------------------------------------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.counter;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.example.counter.R;
+
+public class MainActivity extends AppCompatActivity {
+    Button btnStart, btnStop;
+    TextView textCounter;
+    int i = 1;
+    Handler customHandler = new Handler();
+
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        btnStart = findViewById(R.id.btn_start);
+        btnStop = findViewById(R.id.btn_stop);
+        textCounter = findViewById(R.id.textView);
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                customHandler.postDelayed(updateTimerThread, 0);
+
+            }
+        });
+        btnStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                customHandler.removeCallbacks(updateTimerThread);
+            }
+        });
+
+    }
+    private final Runnable updateTimerThread=new Runnable() {
+        @Override
+        public void run() {
+            textCounter.setText(""+i);
+            customHandler.postDelayed(this,1000);
+            i++;
+        }
+    };
+}
+
+========================================================================== END =======================================================================================
+
+PROGRAM6-PARSING
+-------------------------
+
+1.create proJEct name as parserapplication.
+2.On the left side of the screen  right click on app:
+ app -> new -> folder -> assets folder -> finish
+3.check on the left side of ur screen an assets folder will be created.
+4.Right click on assets:
+  assets -> new -> file
+  a)type city.xml
+  b)in this file created paste :
+
+<?xml version = "1.0"?>
+<records>
+<place>
+<name>Mysore</name>
+<lat>12.295</lat>
+<long>76.639</long>
+<temperature>22</temperature>
+<humidity>90 %</humidity>
+</place>
+<place>
+<name>Bangalore</name>
+<lat>12.97165</lat>
+<long>77.5946</long>
+<temperature>25</temperature>
+<humidity>74 %</humidity>
+</place>
+</records>
+--------------------------------
+
+
+5.Right click on assets:
+  assets -> new -> file
+  a)type city.json
+  b)in this file created paste :
+
+[
+{
+"name": "HASSAN",
+"lat": "12.295",
+"long": "76.639",
+"temperature": "22",
+"humidity": "92 %"
+},
+{
+"name": "MANDYA",
+"lat": "12.97165",
+"long": "77.5946",
+"temperature": "25",
+"humidity": "74 %"
+}
+]
+--------------------------------
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse Applicstion"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARSEXML"
+        android:onClick="parseXML"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARSEJSON"
+        android:onClick="parseJSON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="234dp"
+        android:layout_height="258dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-------------------------------------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+
+package com.example.parserapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+public class MainActivity extends AppCompatActivity {
+TextView display;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        display = findViewById(R.id.display);
+    }
+    public void parseXML(View view)
+    {
+     try {
+         InputStream is = getAssets().open("city.XML");
+         DocumentBuilderFactory documentBuilderFactory=DocumentBuilderFactory.newInstance();
+         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+         Document document = documentBuilder.parse(is);
+         StringBuilder stringBuilder= new StringBuilder();
+         stringBuilder.append("XML DATA");
+         stringBuilder.append("\n-----------");
+         NodeList nodeList = document.getElementsByTagName("place");
+         for (int i=0;i<nodeList.getLength();i++)
+         {
+             Node node = nodeList.item(i);
+             if (node.getNodeType()==Node.ELEMENT_NODE)
+             {
+                 Element element =(Element)node;
+                 stringBuilder.append("\nName:").append(getValue("name",element));
+                 stringBuilder.append("\nLatitude:").append(getValue("lat",element));
+                 stringBuilder.append("\nLongitude:").append(getValue("long",element));
+                 stringBuilder.append("\nTemperature:").append(getValue("temperature",element));
+                 stringBuilder.append("\nHumidity:").append(getValue("humidity",element));
+                 stringBuilder.append("\n-----------");
+             }
+         }
+         display.setText(stringBuilder.toString());
+     }
+     catch (Exception e)
+     {
+         e.printStackTrace();
+         Toast.makeText(this, "error in parsing XML",Toast.LENGTH_LONG).show();
+     }
+    }
+    public void parseJSON(View view)
+    {
+        String json;
+        StringBuilder stringBuilder = new StringBuilder();
+        try
+        {
+            InputStream is = getAssets().open("city.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            json=new String(buffer, StandardCharsets.UTF_8);
+            JSONArray jsonArray = new JSONArray(json);
+            stringBuilder.append("JSON DATA");
+            stringBuilder.append("\n-----------");
+            for (int i=0;i<jsonArray.length();i++)
+            {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                stringBuilder.append("\nName").append(jsonObject.getString("name"));
+                stringBuilder.append("\nLatitude").append(jsonObject.getString("lat"));
+                stringBuilder.append("\nLongitude").append(jsonObject.getString("long"));
+                stringBuilder.append("\nTemperature").append(jsonObject.getString("temperature"));
+                stringBuilder.append("\nHumidity").append(jsonObject.getString("humidity"));
+                stringBuilder.append("\n-----------");
+            }
+            display.setText(stringBuilder.toString());
+            is.close();
+
+        }
+        catch (Exception e)
+        {
+          e.printStackTrace();
+          Toast.makeText(this, "Error in parsing JSON",Toast.LENGTH_LONG).show();
+        }
+    }
+    private String getValue(String tag,Element element)
+    {
+        return element.getElementsByTagName(tag).item(0).getChildNodes().item(0).getNodeValue();
+    }
+
+}
+
+========================================================================== END =================================================================================
+
+PROGRAM7-TEXT TO SPEECH
+-------------------------
+
+1.create proejct name as texttospeech.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="318dp"
+        android:layout_height="33dp"
+        android:text="Text2Specch App"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Text Here"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:onClick="convert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+----------------------------------------------------------
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.texttospeech;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
+import android.view.View;
+import android.widget.EditText;
+
+import java.util.Locale;
+
+public class MainActivity extends AppCompatActivity {
+    TextToSpeech t1;
+    EditText e1;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        e1=findViewById(R.id.editText);
+        t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status!=TextToSpeech.ERROR)
+                {
+                    t1.setLanguage(Locale.UK);
+                }
+            }
+        });
+    }
+    public void convert(View view)
+    {
+        String tospeak=e1.getText().toString();
+        t1.speak(tospeak,TextToSpeech.QUEUE_FLUSH,null);
+    }
+}
+======================================================================== END =========================================================================================
+
+PROGRAM8-CALL
+-------------------------
+
+1.create project name as call.
+
+ACTIVITY_MAIN.XML
+CODE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="150dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL and SAVE APPLICATION"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/num"
+            android:hint="Enter Number"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_error"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/del" android:text="DEL"
+            android:textAlignment="center"
+            android:onClick="delete"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="one"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="two"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="three"
+            android:text="3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/four" android:text="4"
+            android:onClick="four"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/five" android:text="5"
+            android:onClick="five"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/six" android:text="6"
+            android:onClick="six"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seven"
+            android:text="7"
+            android:onClick="seven"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eight"
+            android:text="8"
+            android:onClick="eight"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nine" android:text="9"
+            android:onClick="nine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/star" android:text="*"
+            android:onClick="star"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zero"
+            android:text="0"
+            android:onClick="zero"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hash" android:text="#"
+            android:onClick="hash"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/call"
+            android:text="CALL"
+            android:onClick="call"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:text="SAVE"
+            android:onClick="save"/>
+    </LinearLayout>
+</LinearLayout>
+-----------------------------------------------------------
+
+MAINACTIVITY.JAVA
+CODE:
+
+package com.example.call;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.view.View;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+public class MainActivity extends AppCompatActivity {
+    EditText number;
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        number=findViewById(R.id.num);
+    }
+    public void one(View v)
+    {
+        number.append("1");
+    }
+    public void two(View v)
+    {
+        number.append("2");
+    }
+    public void three(View v)
+    {
+        number.append("3");
+    }
+    public void four(View v)
+    {
+        number.append("4");
+    }
+    public void five(View v)
+    {
+        number.append("5");
+    }
+    public void six(View v)
+    {
+        number.append("6");
+    }
+    public void seven(View v)
+    {
+        number.append("7");
+    }
+    public void eight(View v)
+    {
+        number.append("8");
+    }
+    public void nine(View v)
+    {
+        number.append("9");
+    }
+    public void zero(View v)
+    {
+        number.append("0");
+    }
+    public void star(View v)
+    {
+        number.append("*");
+    }
+    public void hash(View v)
+    {
+        number.append("#");
+    }
+    public void delete(View v)
+    {
+        String n=number.getText().toString(); n=n.substring(0,n.length()-1); number.setText(n);
+    }
+
+    public void call(View v)
+    {
+        String num=number.getText().toString();
+        Intent i =new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+num));
+        startActivity(i);
+    }
+    public void save(View v)
+    {
+        String num=number.getText().toString();
+        Intent i =new Intent(Intent.ACTION_INSERT,
+                ContactsContract.Contacts.CONTENT_URI);
+        i.putExtra(ContactsContract.Intents.Insert.PHONE,num);
+        startActivity(i);
+    }
+}
+======================================================================== END ==========================================================================================
+
